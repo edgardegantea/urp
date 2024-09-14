@@ -1,0 +1,203 @@
+INFO - 2024-09-13 21:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:10:51 --> ErrorException: Undefined variable $user
+[Method: GET, Route: users/create]
+in APPPATH\Views\users\form.php on line 48.
+ 1 APPPATH\Views\users\form.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\test\\urp\\app\\Views\\users\\form.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\users\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/form', [], true)
+ 5 APPPATH\Controllers\UserController.php(38): view('users/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:11:09 --> ErrorException: Undefined variable $rolePermissions
+[Method: GET, Route: roles/create]
+in APPPATH\Views\roles\form.php on line 32.
+ 1 APPPATH\Views\roles\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolePermissions', 'F:\\test\\urp\\app\\Views\\roles\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\roles\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('roles/form', [], true)
+ 5 APPPATH\Controllers\RoleController.php(35): view('roles/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:25:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:26:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:26:16 --> ErrorException: Undefined variable $rolePermissions
+[Method: GET, Route: roles/create]
+in APPPATH\Views\roles\form.php on line 32.
+ 1 APPPATH\Views\roles\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolePermissions', 'F:\\test\\urp\\app\\Views\\roles\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\roles\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('roles/form', [], true)
+ 5 APPPATH\Controllers\RoleController.php(35): view('roles/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:27:28 --> ErrorException: Undefined variable $rolePermissions
+[Method: GET, Route: roles/create]
+in APPPATH\Views\roles\form.php on line 32.
+ 1 APPPATH\Views\roles\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolePermissions', 'F:\\test\\urp\\app\\Views\\roles\\form.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\roles\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('roles/form', [], true)
+ 5 APPPATH\Controllers\RoleController.php(35): view('roles/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:29:52 --> ErrorException: Undefined variable $rolePermissions
+[Method: GET, Route: roles/create]
+in APPPATH\Views\roles\form.php on line 33.
+ 1 APPPATH\Views\roles\form.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rolePermissions', 'F:\\test\\urp\\app\\Views\\roles\\form.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\roles\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('roles/form', [], true)
+ 5 APPPATH\Controllers\RoleController.php(35): view('roles/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:32:45 --> BadMethodCallException: Call to undefined method App\Models\RoleModel::belongsToMany
+[Method: POST, Route: roles]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Models\RoleModel.php(25): CodeIgniter\Model->__call('belongsToMany', [...])
+ 2 APPPATH\Controllers\RoleController.php(57): App\Models\RoleModel->permissions()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+CRITICAL - 2024-09-13 22:33:59 --> ErrorException: Attempt to read property "permissions" on array
+[Method: GET, Route: roles/7]
+in APPPATH\Controllers\RoleController.php on line 75.
+ 1 APPPATH\Controllers\RoleController.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "permissions" on array', 'F:\\test\\urp\\app\\Controllers\\RoleController.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->show('7')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+CRITICAL - 2024-09-13 22:34:51 --> BadMethodCallException: Call to undefined method App\Models\RoleModel::toEntity
+[Method: GET, Route: roles/7]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\RoleController.php(75): CodeIgniter\Model->__call('toEntity', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->show('7')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+CRITICAL - 2024-09-13 22:34:56 --> BadMethodCallException: Call to undefined method App\Models\RoleModel::toEntity
+[Method: GET, Route: roles/3]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\RoleController.php(75): CodeIgniter\Model->__call('toEntity', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RoleController->show('3')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:35:26 --> ErrorException: Undefined variable $user
+[Method: GET, Route: users/create]
+in APPPATH\Views\users\form.php on line 48.
+ 1 APPPATH\Views\users\form.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\test\\urp\\app\\Views\\users\\form.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\users\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/form', [], true)
+ 5 APPPATH\Controllers\UserController.php(38): view('users/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:49:57 --> ErrorException: Undefined variable $user
+[Method: GET, Route: users/create]
+in APPPATH\Views\users\form.php on line 54.
+ 1 APPPATH\Views\users\form.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'F:\\test\\urp\\app\\Views\\users\\form.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\users\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/form', [], true)
+ 5 APPPATH\Controllers\UserController.php(36): view('users/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-13 22:50:51 --> ErrorException: Undefined array key "rol_id"
+[Method: GET, Route: users/create]
+in APPPATH\Views\users\form.php on line 54.
+ 1 APPPATH\Views\users\form.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rol_id"', 'F:\\test\\urp\\app\\Views\\users\\form.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('F:\\test\\urp\\app\\Views\\users\\form.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('users/form', [], true)
+ 5 APPPATH\Controllers\UserController.php(37): view('users/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('F:\\test\\urp\\public\\index.php')
+INFO - 2024-09-13 22:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-13 22:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
